@@ -8,11 +8,14 @@ body {
   font-size: 3rem;
   margin:  5%;
   color: #FEF2BF;
+  line-height: 1.5;
 }
 .title-span {
+  line-height: 1.5;
   font-size: 1.5rem;
 }
 .sss{
+  line-height: 1.5;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
