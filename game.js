@@ -9,7 +9,7 @@ function startOver(){
 var started = false;
 var level = 0;
 
-$(document).on("keypress", function () {
+$("#level-title").on("click", function () {
   if (!started) {
       $("#level-title").text("Level  " + level);
       nextSequence();
@@ -49,7 +49,7 @@ function checkAnswer(currentlevel){
     setTimeout(() => {
       $("body").removeClass("game-over");
     }, 200);
-    $("#level-title").text("Game Over, press any key to Restart")
+    $("#level-title").text("Game Over, Touch me to Restart")
 startOver();
 
   }
