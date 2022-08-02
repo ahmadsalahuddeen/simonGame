@@ -1,7 +1,11 @@
 var buttonColours = ["red", "blue", "green", "yellow"]
 var gamePattern = [];
 var userChoosenPattern = [];
-
+function startOver(){
+  level = 0;
+  gamePattern = [];
+  started = false;
+}
 var started = false;
 var level = 0;
 
@@ -45,8 +49,9 @@ function checkAnswer(currentlevel){
     setTimeout(() => {
       $("body").removeClass("game-over");
     }, 200);
+    $("#level-title").text("Game Over, press any key to Restart")
+startOver();
 
-    
   }
   }
 
@@ -87,6 +92,8 @@ function playSound(name) {
 
 
 }
+
+
 
 
 
