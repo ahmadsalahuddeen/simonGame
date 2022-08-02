@@ -9,6 +9,9 @@ body {
   margin:  5%;
   color: #FEF2BF;
 }
+.title-span {
+  font-size: 1.5rem;
+}
 .sss{
   text-align: center;
   font-family: 'Press Start 2P', cursive;

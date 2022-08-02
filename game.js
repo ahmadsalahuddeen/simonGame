@@ -49,7 +49,7 @@ function checkAnswer(currentlevel){
     setTimeout(() => {
       $("body").removeClass("game-over");
     }, 200);
-    $("#level-title").text("Game Over, Touch me to Restart")
+    $("#level-title").html('Game Over, Touch me to Restart <br> <span class="title-span" > Your Level is  ' +level + '</span>')
 startOver();
 
   }
